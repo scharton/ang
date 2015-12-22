@@ -1,0 +1,63 @@
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <atom:link href="http://www.talk910.com/podcast/ang2011.xml" rel="self" type="application/rss+xml"/>
+        <title>Armstrong &amp; Getty</title>
+        <link>
+            http://www.talk910.com/cc-common/podcast/single_page.html?podcast=ang2011
+        </link>
+        <language>en-us</language>
+        <copyright>© 2015 KKSF-AM</copyright>
+        <itunes:subtitle/>
+        <itunes:author>Talk 910</itunes:author>
+        <itunes:summary>
+            A radio show hosted by Jack Armstrong &amp; Joe Getty on Talk 910 in San Francisco, California.
+        </itunes:summary>
+        <description>
+            A radio show hosted by Jack Armstrong &amp; Joe Getty on Talk 910.
+        </description>
+        <itunes:owner>
+            <itunes:name>iHeartRadio</itunes:name>
+            <itunes:email>help@iheartradio.com</itunes:email>
+        </itunes:owner>
+        <itunes:image
+                href="http://img.ccrd.clearchannel.com/media/mlib/664/2015/08/default/armstrong_and_getty_dl_0_1440611285.jpg"/>
+        <itunes:category text="News &amp; Politics"/>
+        <itunes:explicit>No</itunes:explicit>
+        <itunes:new-feed-url>
+            http://www.talk910.com/podcast/itunes/ang2011_itunes.xml
+        </itunes:new-feed-url>
+        <pubDate>Thu, 09 Jan 2014 12:00:31 -0500</pubDate>
+        <itunes:block>no</itunes:block>
+        <generator>iHeartRadio Podcast</generator>
+        <item>
+            <title>Armstrong and Getty September 11, 2015 Hour 4</title>
+            <itunes:author>Talk_910</itunes:author>
+            <itunes:subtitle>Jack Armstrong and Joe Getty do a talk show.</itunes:subtitle>
+            <itunes:summary>
+                Slip-and-fall scammers in NY; What does each state produce?
+            </itunes:summary>
+            <itunes:image
+                    href="http://img.ccrd.clearchannel.com/media/mlib/664/2015/08/default/ag_podcast_pic_0_1440684461.jpg"/>
+            <imageurl>
+                http://img.ccrd.clearchannel.com/media/mlib/664/2015/08/default/ag_podcast_pic_0_1440684461.jpg
+            </imageurl>
+            <enclosure
+                    url="http://media.ccomrcdn.com/media/station_content/664/2015/09/mp3/default/armstrong_and_getty__september_0_1441977556.mp3?CPROG=PCAST&amp;MARKET=SANFRANCISCO-CA&amp;NG_FORMAT=&amp;SITE_ID=664&amp;STATION_ID=KKSF-AM&amp;PCAST_AUTHOR=Talk_910&amp;PCAST_CAT=&amp;PCAST_TITLE=Armstrong_%26_Getty"
+                    length="" type="audio/mpeg"/>
+            <guid>
+                http://media.ccomrcdn.com/media/station_content/664/2015/09/mp3/default/armstrong_and_getty__september_0_1441977556.mp3
+            </guid>
+            <pubDate>Fri, 11 Sep 2015 13:07:19 -0400</pubDate>
+            <itunes:duration>00:37:43</itunes:duration>
+            <itunes:explicit>No</itunes:explicit>
+            <description>
+                1 - Late COW; Slip-and-fall scammers in NY. 2 - What does each state produce?. 3 - The News with
+                Marshall Phillips. 4 - ; Final Thoughts.
+            </description>
+            <mediaId>26344405</mediaId>
+            <podcast_downloadable>1</podcast_downloadable>
+            <mediaTitle>Armstrong and Getty September 11, 2015 Hour 4</mediaTitle>
+            <mediaType>audio</mediaType>
+        </item>
+    </channel>
+</rss>

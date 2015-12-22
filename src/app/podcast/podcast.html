@@ -1,0 +1,31 @@
+<div class="container">
+    <div class="h3 row">
+        <div class="col-md-6">
+            Title: {{podcast.title}}
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-8 col-lg-8">
+            Find by description: <input ng-model="keyword.description">
+            Find by date: <input ng-model="keyword.pubDate">
+            Row limit: <input ng-model="keyword.rowlimit" type="number" value="5">
+        </div>
+    </div>
+    <div ng-repeat="item in podcast.itemList | filter: keyword:strict | limitTo: 5">
+        <div class="panel panel-body well">
+            <div class="col-md-4 col lg-4">
+                <a ng-href="{{item.guid}}" target="_blank">{{podcast.displayDate(item.title)}}</a>
+            </div>
+            <div class="col-md-4 col lg-4">
+                <audio controls preload="none">
+                    <source src="{{item.guid}}" type="audio/mpeg">
+                    Your browser does not support the audio tag.
+                </audio>
+            </div>
+            <div class="col-md-4 col lg-4" style="font-size: .9em;">
+                {{item.description}}
+            </div>
+        </div>
+    </div>
+
+</div>
